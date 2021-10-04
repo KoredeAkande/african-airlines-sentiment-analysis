@@ -3,6 +3,8 @@ African Airlines Sentiment Analysis
 
 An Aspect-Based Sentiment Analysis (ABSA) of the top African air carriers
 
+See Notebooks directory for most of the code implementation.
+
 Project Organization
 ------------
 
