@@ -1,4 +1,4 @@
-African Airlines Sentiment Analysis
+African Airlines Sentiment Analysis 🛩
 ==============================
 
 In our highly globalized world, airlines play a crucial role in connecting dispersed parts of the globe. There are, however, differences between every airline and these can affect passenger experience. Public opinion regarding airlines operating out of western countries is well documented; conversely, experiences with African airlines are less discussed. 
