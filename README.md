@@ -51,6 +51,9 @@ Key Findings
 ------------
 
 #### African Airline Review Analysis
+
+![Airlines Average Atrribute Ratings](reports/figures/ratings_parallel_plot.png?raw=true "Title")
+
 - African airlines, in general, are not regarded very positively. A quick view of the distribution of positive/negative/neutral ratings, as well as a consideration of the average rating on all attributes, shows that the airlines, in general, offer at best, fair service.
 - The majority of the negative sentiments seem to stem from poor customer service and delayed flights. Therefore, airlines may benefit from focusing their efforts on improving these areas.
 
