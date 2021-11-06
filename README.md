@@ -5,6 +5,8 @@ In our highly globalized world, airlines play a crucial role in connecting dispe
 
 In this project, I attempt to address this gap by analyzing reviews of major African airlines in order to evaluate passengers' experiences. I also conduct an aspect-based sentiment analysis leveraging Aspect-Based Sentiment Analysis by Scala Consultants.
 
+The published Medium article can be accessed [here](https://medium.com/@koredeakande001/aspect-based-sentiment-analysis-of-african-airlines-ad6317c48973). For a discussion of results see `Key Findings` section below
+
 Project Organization
 ------------
 
@@ -36,10 +38,26 @@ tensorflow==2.2.0
 cleantext
 wordcloud
 missingno
+
+#BCa Confidence Interval Requirement
+arch
+
 ```
 
 It might be best to create a virtual environment to run this project in as the above downgrades packages
 
+
+Key Findings
+------------
+
+#### African Airline Review Analysis
+- African airlines, in general, are not regarded very positively. A quick view of the distribution of positive/negative/neutral ratings, as well as a consideration of the average rating on all attributes, shows that the airlines, in general, offer at best, fair service.
+- The majority of the negative sentiments seem to stem from poor customer service and delayed flights. Therefore, airlines may benefit from focusing their efforts on improving these areas.
+
+#### Aspect-Based Sentiment Analysis
+- Ready-to-use ABSA model from [Aspect-based Sentiment Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis) package results in a 95% BCa confidence interval of [0.82 , 0.89] for the accuracy rate
+- The model performed pretty poorly on predicting reviews with `Neutral` sentiment. It however, predicted `Negative` and `Positive` reviews pretty accurately
+- The ABSA package requires manual specification of aspects that should be searched for in the texts. The accuracy of the specified words largely determines how successful the model will be in aspect detection and sentiment prediction
 
 
 --------
