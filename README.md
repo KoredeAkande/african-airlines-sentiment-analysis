@@ -65,7 +65,7 @@ Airlines Average Atrribute Ratings            |  Airlines Sentiment Distribution
 - The majority of the negative sentiments seem to stem from poor customer service and delayed flights. Therefore, airlines may benefit from focusing their efforts on improving these areas.
 
 ### Aspect-Based Sentiment Analysis
-![Confusion Matrix](reports/figures/confusion_plot.png?raw=true "Title"| width=100) 
+![Confusion Matrix](reports/figures/confusion_plot.png?raw=true "Title"){:height="100px" width="100px"}
 - Ready-to-use ABSA model from [Aspect-based Sentiment Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis) package results in a 95% BCa confidence interval of [0.82 , 0.89] for the accuracy rate
 - The model performed pretty poorly on predicting reviews with `Neutral` sentiment (see image above). It however, predicted `Negative` and `Positive` reviews pretty accurately
 - The ABSA package requires manual specification of aspects that should be searched for in the texts. The accuracy of the specified words largely determines how successful the model will be in aspect detection and sentiment prediction
