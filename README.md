@@ -50,7 +50,7 @@ It might be best to create a virtual environment to run this project in as the a
 Key Findings
 ------------
 
-#### African Airline Review Analysis
+### African Airline Review Analysis
 
 Airlines Average Atrribute Ratings            |  Airlines Sentiment Distribution
 :-------------------------:|:-------------------------:
@@ -63,7 +63,7 @@ Airlines Average Atrribute Ratings            |  Airlines Sentiment Distribution
 - African airlines, in general, are not regarded very positively. A quick view of the distribution of positive/negative/neutral ratings, as well as a consideration of the average rating on all attributes, shows that the airlines, in general, offer at best, fair service.
 - The majority of the negative sentiments seem to stem from poor customer service and delayed flights. Therefore, airlines may benefit from focusing their efforts on improving these areas.
 
-#### Aspect-Based Sentiment Analysis
+### Aspect-Based Sentiment Analysis
 - Ready-to-use ABSA model from [Aspect-based Sentiment Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis) package results in a 95% BCa confidence interval of [0.82 , 0.89] for the accuracy rate
 - The model performed pretty poorly on predicting reviews with `Neutral` sentiment. It however, predicted `Negative` and `Positive` reviews pretty accurately
 - The ABSA package requires manual specification of aspects that should be searched for in the texts. The accuracy of the specified words largely determines how successful the model will be in aspect detection and sentiment prediction
