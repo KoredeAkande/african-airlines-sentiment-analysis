@@ -33,7 +33,7 @@ I ran into some problems running the ABSA package with its [default requirements
 #Modeling requirements
 aspect-based-sentiment-analysis==2.0.2
 transformers==2.5.0
-tensorflow==2.2.0
+tensorflow==2.7.0
 
 #Data cleaning requirements - all are not neccessary if you want to utilize the provided dataset
 cleantext
