@@ -17,6 +17,8 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
+    ├── deployment         <- Files for flask app deployment
+    │
     ├── notebooks          <- Jupyter notebooks numbered for ordering 
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
