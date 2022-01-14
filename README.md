@@ -73,6 +73,16 @@ Airlines Average Atrribute Ratings            |  Airlines Sentiment Distribution
 - The ABSA package requires manual specification of aspects that should be searched for in the texts. The accuracy of the specified words largely determines how successful the model will be in aspect detection and sentiment prediction
 
 
+Deployment
+------------
+Following model building, a simple web app was deployed using Flask to simplify and increase accessibility to conducting aspect-based sentiment analysis on airline reviews. The crucial files are contained in the [deployment](https://github.com/KoredeAkande/african-airlines-sentiment-analysis/tree/main/deployment) directory. 
+
+As shown below, the app takes as input a review and returns as output the sentiments detected on 6 airline aspects: seat, cabin staff service, food, inflight entertainment, ground service and wifi.
+
+![Web App Test Run](deployment/test_run.gif?raw=true "Title")
+
+**Note:** If permission issues arise when the server is run, it might be helpful to try running it in private/incognito mode
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
